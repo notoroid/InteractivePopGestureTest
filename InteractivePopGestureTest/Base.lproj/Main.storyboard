@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Detail View Controller-->
+        <!--Detail-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="DetailViewController" customModule="InteractivePopGestureTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,7 +45,7 @@
                             <constraint firstItem="rEV-bA-Qgz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50.166666666666742" id="tIZ-b2-dkT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="0sH-Ai-kmW"/>
+                    <navigationItem key="navigationItem" title="Detail" id="0sH-Ai-kmW"/>
                     <connections>
                         <outlet property="confirmFeatureSwitch" destination="t7S-km-uJV" id="xvr-U6-utr"/>
                     </connections>
@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="-237" y="-80"/>
         </scene>
-        <!--Edit View Controller-->
+        <!--Edit-->
         <scene sceneID="lfM-Hh-IJa">
             <objects>
                 <viewController id="qgL-p1-QMZ" customClass="EditViewController" customModule="InteractivePopGestureTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                             <constraint firstItem="RGY-1k-pnF" firstAttribute="leading" secondItem="9P5-Xr-0Av" secondAttribute="trailing" constant="8" id="cIR-f0-EVk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Dkn-Ez-sTt"/>
+                    <navigationItem key="navigationItem" title="Edit" id="Dkn-Ez-sTt"/>
                     <connections>
                         <outlet property="modifiedSwitch" destination="RGY-1k-pnF" id="zDa-OS-wp8"/>
                     </connections>
@@ -109,7 +109,7 @@
             </objects>
             <point key="canvasLocation" x="-1851" y="-80"/>
         </scene>
-        <!--View Controller-->
+        <!--Root-->
         <scene sceneID="Z3c-vQ-HcZ">
             <objects>
                 <viewController id="1VP-rU-CAC" sceneMemberID="viewController">
@@ -133,7 +133,7 @@
                             <constraint firstItem="hLa-vL-03H" firstAttribute="centerY" secondItem="nSm-zd-gFP" secondAttribute="centerY" id="tp4-cV-qLa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="XuR-zJ-oVA"/>
+                    <navigationItem key="navigationItem" title="Root" id="XuR-zJ-oVA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYD-Fa-6f4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
